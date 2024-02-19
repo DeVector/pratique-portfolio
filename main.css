@@ -1,0 +1,66 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.navbar {
+    background-color: #3498DB;
+}
+
+.btn-color-carousel{
+    background-color: #A4CCE7;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #3498DB;
+
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-tipos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title {
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+#sobre-restaurante,
+#cardapio {
+    background-color: #ffeae6;
+}
+
+.text-coloblue{
+    color: #A4CCE7;
+}
+
+.nav-tipos .nav-link.active,
+#contato button {
+    background-color: #A4CCE7;
+    color: #fff;
+}
+
+.nav-tipos .nav-link:hover {
+    color: #A4CCE7;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px){
+    .carousel-item img {
+        height: 280px;
+    }
+}
